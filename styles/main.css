@@ -1,0 +1,73 @@
+* {
+  font-family: 'Righteous', cursive;
+}
+
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
+nav {
+  /* background-color: red; */
+  display: block;
+}
+
+nav a{
+     color: #E739EA;
+     text-decoration:none;
+}
+
+nav a:hover {
+    /* color: blue; */
+    text-decoration: underline;
+}
+
+li {
+  display: inline-block;
+}
+
+.container {
+  /* background-color: green; */
+  display: block;
+}
+
+h1 {
+  /* background-color: blue; */
+  color: #E739EA;
+  font-size: 100px;
+  text-shadow: 2px 5px #000000;
+  text-align: center;
+}
+
+#pink-triangle {
+  /* background-color: red; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px;
+  width: 200px;
+}
+
+#blue-triangle {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px;
+  width: 200px;
+}
+
+button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  color: #E0D5CC;
+}
